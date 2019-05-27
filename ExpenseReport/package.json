@@ -1,0 +1,22 @@
+
+{
+    "name": "expensereport",
+    "version": "1.0.0",
+    "description": "Node JS APP",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/arpita-c/rest_api_receipt.git"
+    },
+    
+    "dependencies": {
+      "body-parser": "^1.18.2",
+      "express": "^4.16.2"
+    },
+    "devDependencies": {
+      "eslint": "^4.15.0"
+    }
+  }
