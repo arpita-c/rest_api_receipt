@@ -9,7 +9,6 @@ app.use(bodyParser.json());
 
 require('./config/cors')(app);
 require('./routes/receiptRoutes')(app);
-//require('./routes/versionRoutes')(app, config);
 
 app.listen(3000, () => {
   console.log('Server Running');
